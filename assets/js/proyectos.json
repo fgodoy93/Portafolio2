@@ -1,0 +1,25 @@
+{
+    "proyectos": [
+        {
+            "nombre": "Buscador de Libros",
+            "descripcion": "Aplicación para buscar libros por nombre de autor/a utilizando la API de Open Library. Incluye búsqueda dinámica y visualización de resultados.",
+            "imagen": "assets/img/libros.png",
+            "url": "https://fgodoy93.github.io/BuscadorDeLibros/",
+            "tecnologias": ["HTML", "CSS", "JavaScript", "API REST"]
+        },
+        {
+            "nombre": "To Do List",
+            "descripcion": "Aplicación completa donde puedes ver, agregar, editar y eliminar tus tareas pendientes con persistencia de datos en el navegador.",
+            "imagen": "assets/img/todo.png",
+            "url": "https://fgodoy93.github.io/M3_EvaluacionPortafolio/",
+            "tecnologias": ["HTML", "CSS", "JavaScript", "LocalStorage"]
+        },
+        {
+            "nombre": "Supermercado",
+            "descripcion": "Aplicación que simula una plataforma de supermercado con carrito de compras, gestión de productos y cálculo de totales.",
+            "imagen": "assets/img/super.png",
+            "url": "https://fgodoy93.github.io/Supermercado/",
+            "tecnologias": ["HTML", "CSS", "JavaScript", "Bootstrap"]
+        }
+    ]
+}
