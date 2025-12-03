@@ -33,27 +33,70 @@
     <!-- Main -->
     <main class="flex-grow-1">
         <!-- Hero Section -->
-        <section id="hero" class="hero-bg">
+        <section id="hero" class="hero-hologram">
+            <div class="hero-background">
+                <div class="grid-overlay"></div>
+                <div class="glow-effect"></div>
+            </div>
+            
             <div class="container">
                 <div class="row align-items-center">
-                    <!-- Foto de perfil -->
-                    <div class="col-md-3 text-center mb-4 mb-md-0">
-                        <div class="foto-wrapper">
-                            <img src="assets/img/perfil.png" alt="Foto de perfil de Francisco Godoy" class="perfil-foto">
+                    <!-- Foto de perfil con efecto holográfico -->
+                    <div class="col-md-5 text-center mb-4 mb-md-0">
+                        <div class="hologram-wrapper">
+                            <div class="hologram-ring ring-1"></div>
+                            <div class="hologram-ring ring-2"></div>
+                            <div class="hologram-ring ring-3"></div>
+                            <div class="foto-wrapper-hologram">
+                                <img src="assets/img/perfil.png" alt="Foto de perfil de Francisco Godoy" class="perfil-foto-hologram">
+                                <div class="scan-line"></div>
+                                <div class="hologram-glitch"></div>
+                            </div>
                         </div>
                     </div>
 
-                    <!-- Texto -->
-                    <div class="col-md-9 text-center text-md-start">
-                        <h1 class="display-4 fw-bold mb-3">Francisco Godoy</h1>
-                        <p class="lead mb-4">Ingeniero Civil Industrial | Desarrollador Full Stack</p>
-                        <div class="d-flex gap-3 justify-content-center justify-content-md-start flex-wrap">
-                            <a href="#proyectos" class="btn btn-primary btn-lg">Ver Proyectos</a>
-                            <a href="#contacto" class="btn btn-outline-primary btn-lg">Contáctame</a>
+                    <!-- Texto con animaciones -->
+                    <div class="col-md-7 text-center text-md-start hero-content">
+                        <div class="typing-effect">
+                            <span class="text-accent">&lt;</span>
+                            <span class="text-code">desarrollador</span>
+                            <span class="text-accent">&gt;</span>
+                        </div>
+                        <h1 class="display-3 fw-bold mb-3 glitch-text" data-text="Francisco Godoy">
+                            Francisco Godoy
+                        </h1>
+                        <div class="subtitle-wrapper">
+                            <p class="lead mb-2">Ingeniero Civil Industrial</p>
+                            <p class="lead text-accent mb-4">Full Stack Developer</p>
+                        </div>
+                        <div class="typing-effect">
+                            <span class="text-accent">&lt;/</span>
+                            <span class="text-code">desarrollador</span>
+                            <span class="text-accent">&gt;</span>
+                        </div>
+                        <div class="d-flex gap-3 justify-content-center justify-content-md-start flex-wrap mt-4">
+                            <a href="#proyectos" class="btn btn-primary btn-lg btn-glow">
+                                <i class="fas fa-code me-2"></i>Ver Proyectos
+                            </a>
+                            <a href="#contacto" class="btn btn-outline-primary btn-lg btn-outline-glow">
+                                <i class="fas fa-envelope me-2"></i>Contáctame
+                            </a>
+                        </div>
+                        
+                        <!-- Partículas flotantes -->
+                        <div class="particles">
+                            <span class="particle"></span>
+                            <span class="particle"></span>
+                            <span class="particle"></span>
+                            <span class="particle"></span>
+                            <span class="particle"></span>
                         </div>
                     </div>
                 </div>
             </div>
+            
+            <!-- Efecto de escaneo -->
+            <div class="scan-overlay"></div>
         </section>
 
         <!-- Sección Sobre mí -->
@@ -222,3 +265,4 @@
 </body>
 
 </html>
+
