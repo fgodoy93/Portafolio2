@@ -1,6 +1,13 @@
 {
     "proyectos": [
         {
+            "nombre": "PetCare - Gestión Veterinaria",
+            "descripcion": "Aplicación para mantener un registro veterinario ordenado de nuestras mascotas y un control de vacunas, antiparasitarios, consultas",
+            "imagen": "assets/img/petcare.png",
+            "url": "https://petcare-production-3ed2.up.railway.app/",
+            "tecnologias": ["Node.js", "JavaScript", "API REST", "PostgreSQL"]
+        }, 
+        {
             "nombre": "Buscador de Libros",
             "descripcion": "Aplicación para buscar libros por nombre de autor/a utilizando la API de Open Library. Incluye búsqueda dinámica y visualización de resultados.",
             "imagen": "assets/img/libros.png",

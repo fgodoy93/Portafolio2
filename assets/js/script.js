@@ -237,12 +237,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
         images.forEach(img => imageObserver.observe(img));
     }
-
-    // ============================================
-    // CONSOLE MESSAGE
-    // ============================================
-    
-    console.log('%c¡Hola! 👋', 'font-size: 20px; color: #64FFDA; font-weight: bold;');
-    console.log('%cGracias por visitar mi portafolio', 'font-size: 14px; color: #8892B0;');
-    console.log('%c¿Buscas un desarrollador? Contáctame: fgodoyr93@gmail.com', 'font-size: 12px; color: #64FFDA;');
 });

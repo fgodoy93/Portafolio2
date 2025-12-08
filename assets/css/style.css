@@ -72,7 +72,7 @@ NAVBAR
     width: 100%;
 }
 
-/* ============================================
+/*============================================
     HERO SECTION
 ============================================ */
 
@@ -85,7 +85,6 @@ NAVBAR
     background: linear-gradient(135deg, #0A192F 0%, #112240 50%, #0A192F 100%);
 }
 
-/* Background con efectos */
 .hero-background {
     position: absolute;
     top: 0;
@@ -134,7 +133,6 @@ NAVBAR
     z-index: 10;
 }
 
-/* Efecto de texto tipo código */
 .typing-effect {
     font-family: 'Courier New', monospace;
     font-size: 1.2rem;
@@ -151,7 +149,6 @@ NAVBAR
     color: var(--color-text-secondary);
 }
 
-/* Efecto glitch en el título */
 .glitch-text {
     position: relative;
     animation: fadeInUp 0.8s ease forwards 0.4s;
@@ -200,7 +197,6 @@ NAVBAR
     opacity: 0;
 }
 
-/* Foto de perfil con efecto holográfico */
 .hologram-wrapper {
     position: relative;
     width: 400px;
@@ -277,7 +273,6 @@ NAVBAR
     z-index: 1;
 }
 
-/* Línea de escaneo sobre la foto */
 .scan-line {
     position: absolute;
     top: 0;
@@ -297,7 +292,6 @@ NAVBAR
     100% { top: 100%; }
 }
 
-/* Efecto glitch sobre la foto */
 .hologram-glitch {
     position: absolute;
     top: 0;
@@ -320,7 +314,6 @@ NAVBAR
     100% { transform: translateX(100%); }
 }
 
-/* Overlay de escaneo global */
 .scan-overlay {
     position: absolute;
     top: 0;
@@ -340,7 +333,6 @@ NAVBAR
     100% { top: 100%; }
 }
 
-/* Partículas flotantes */
 .particles {
     position: absolute;
     width: 100%;
@@ -386,7 +378,6 @@ NAVBAR
     }
 }
 
-/* Botones con efecto glow */
 .btn-glow {
     position: relative;
     overflow: hidden;
@@ -417,7 +408,6 @@ NAVBAR
     opacity: 0;
 }
 
-/* Responsive para hero holográfico */
 @media (max-width: 768px) {
     .hero-hologram {
         min-height: auto;
@@ -453,7 +443,7 @@ NAVBAR
 }
 
 /* ============================================
-   BOTONES
+    BOTONES
    ============================================ */
 
 .btn-primary {
@@ -488,7 +478,7 @@ NAVBAR
 }
 
 /* ============================================
-   SECCIONES
+    SECCIONES
    ============================================ */
 
 .section-title {
@@ -515,7 +505,7 @@ NAVBAR
 }
 
 /* ============================================
-   SOBRE MÍ
+    SOBRE MÍ
    ============================================ */
 
 .sobre-mi {
@@ -549,7 +539,7 @@ NAVBAR
 }
 
 /* ============================================
-   TECNOLOGÍAS
+    TECNOLOGÍAS
    ============================================ */
 
 .tech-icon {
@@ -599,7 +589,7 @@ NAVBAR
 }
 
 /* ============================================
-   PROYECTOS
+    PROYECTOS
    ============================================ */
 
 .proyectos {
@@ -657,7 +647,7 @@ NAVBAR
 }
 
 /* ============================================
-   CONTACTO
+    CONTACTO
    ============================================ */
 
 .contact-info {
@@ -693,7 +683,7 @@ NAVBAR
 }
 
 /* ============================================
-   FOOTER
+    FOOTER
    ============================================ */
 
 footer {
@@ -715,7 +705,7 @@ footer a:hover {
 }
 
 /* ============================================
-   MODAL
+    MODAL
    ============================================ */
 
 .modal {
@@ -758,7 +748,7 @@ footer a:hover {
 }
 
 /* ============================================
-   ANIMACIONES
+    ANIMACIONES
    ============================================ */
 
 @keyframes fadeIn {
@@ -778,7 +768,7 @@ footer a:hover {
 }
 
 /* ============================================
-   RESPONSIVE
+    RESPONSIVE
    ============================================ */
 
 /* Tablets */
